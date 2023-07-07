@@ -10,17 +10,18 @@ This is a basic example of how to fine-tune a pre-trained model to be knowledgea
 - **LoRa**is a technique for fine-tuning LlaMa models. It allows you to train a model on a smaller dataset, while still achieving good performance
 
 ### Data
-
-Example data set for model fine-tuning contains only 100 records (see `data/custome_avalora.json`). The JSON file is formatted for easy consumption by OpenLlaMa.   
+   
+For model fine-tuning, we're using an example dataset that has just 100 records (see `data/custom_avalora.json`). This JSON file is formatted in a way that OpenLlaMa can easily digest.
 
 ### Steps
 
-The example goes through the following steps:
-1. Download the pre-trained 3B parameters OpenLlaMa model from Huggingface
-2. Finetune the model with your own training data set
-3. Run inference to validate that the finetuned model is knowledgeable about your training data
+Here's what our process involves:
+
+1. Download the pre-trained OpenLlaMa model, with 3 billion parameters, from Huggingface.
+2. Fine-tune the model using your personalized training data.
+3. Run an inference to confirm the fine-tuned model understands your training data.
 
 ### What to expect
-The results from this experiment are minimal. We are using a small LLM (3B parameters), fine-tuning it with a tiny data set (100 records), doing it quickly (10 minutes) on a VERY low-end system (one 8-core CPU).
+We're using a small language model (3 billion parameters), a tiny dataset for fine-tuning (100 records), doing it in a short amount of time (10 minutes), and running it on a rather modest system (a single 8-core CPU).
 
-However, if you run through the steps, you will see that the fine-tuned model is clearly aware of the information in the training dataset. It will give mixed up answers that are foggy at best. But fear not, this is the first step in a long and exciting journey.
+Despite these limitations, going through the steps will show you that the fine-tuned model does pick up the information in the training dataset. Its responses might be a bit vague and jumbled, but don't fret! This is just the first step in an engaging journey into the world of large language models.
