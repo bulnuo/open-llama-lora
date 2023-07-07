@@ -22,6 +22,6 @@ Here's what our process involves:
 3. Run an inference to confirm the fine-tuned model understands your training data.
 
 ### What to expect
-We're using a small language model (3 billion parameters), a tiny dataset for fine-tuning (100 records), doing it in a short amount of time (10 minutes), and running it on a rather modest system (a single 8-core CPU).
+We're using a small language model (3 billion parameters), a tiny dataset for fine-tuning (100 records), doing it in a short amount of time (10 minutes), and running it on a tiny system (a single 8-core CPU). For comparison, training is run on 100s of GPUs for many days.
 
-Despite these limitations, going through the steps will show you that the fine-tuned model does pick up the information in the training dataset. Its responses might be a bit vague and jumbled, but don't fret! This is just the first step in an engaging journey into the world of large language models.
+Despite these limitations, going through the steps will show you that the fine-tuned model does pick up the information in the training dataset. Its responses might be a bit vague and jumbled, but don't fret! This is just the first step in the exciting journey.
