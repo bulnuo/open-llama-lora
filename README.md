@@ -62,5 +62,5 @@ It does not yet work on Mac. I will package it in Docker for easier consumption.
 
 Now you can create your own training dataset to run fine-tunning and inference. Both scripts can be easily modified to pick up your data and store/pick-up finetuned models under different names.
 
-Note that the pre-trained base model does not change. You can have multiple finetune Lora Adapters for the same base model.
+Note that the pre-trained base model does not change. You can have multiple finetuned Lora Adapters for the same base model.
 
