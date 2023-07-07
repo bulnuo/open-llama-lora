@@ -25,3 +25,34 @@ Here's what our process involves:
 We're using a small language model (3 billion parameters), a tiny dataset for fine-tuning (100 records), doing it in a short amount of time (10 minutes), and running it on a tiny system (a single 8-core CPU). For comparison, training is run on 100s of GPUs for many days.
 
 Despite these limitations, going through the steps will show you that the fine-tuned model does pick up the information in the training dataset. Its responses might be a bit vague and jumbled, but don't fret! This is just the first step in the exciting journey.
+
+
+## Installation
+
+### Resources
+
+This setup is tested on* t2.2xlarge* EC2 instance with Amazon Linux – 8vCPU, 32GB memory, 30GB storage.
+It does not yet work on Mac. I will package it in Docker for easier consumption.
+
+### Steps
+1.	Install git and clone the repository
+`sudo yum install git`
+`git clone bulnuo/open-llama-lora`
+2.	Follow installation steps outlined in README.txt file
+3.	Download the pre-trained base model 
+`cd scripts`
+`python download.py --repo_id openlm-research/open_llama_3b --local_dir  ../models`
+
+## Usage
+
+1.	Run the finetuning 
+`python finetune-basic.py`
+2.	Run the inference
+`python infer-basic.py`
+
+## Next steps
+
+Now you van create your own training dataset to run fine-tunning and inference. Both scripts can be easily modified to pick up your data and store finetuned models under different names.
+
+Note that the pre-trained base model does not change. You can have multiple finetune Lora Adapters for the same base model.
+
