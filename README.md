@@ -5,9 +5,9 @@
 This is a basic example of how to fine-tune a pre-trained model to be knowledgeable about your domain. 
 
 ### What is in the name?
-- ** LLaMA** is a family of large language models (LLMs) developed by Meta. They are trained on a massive dataset of text and code, and are able to perform a variety of tasks, such as generating text, translating languages, and writing different kinds of creative content.  Llama pre-trained models vary from 7B to 65B parameters
-- **OpenLlaMa **is permissively licensed open source reproduction of Meta’s LLaMa developed by OpenLM Research
-- ** LoRa **is a technique for fine-tuning LlaMa models. It allows you to train a model on a smaller dataset, while still achieving good performance
+- **LLaMA** is a family of large language models (LLMs) developed by Meta. They are trained on a massive dataset of text and code, and are able to perform a variety of tasks, such as generating text, translating languages, and writing different kinds of creative content.  Llama pre-trained models vary from 7B to 65B parameters
+- **OpenLlaMa**is permissively licensed open source reproduction of Meta’s LLaMa developed by OpenLM Research
+- **LoRa**is a technique for fine-tuning LlaMa models. It allows you to train a model on a smaller dataset, while still achieving good performance
 
 ### Data
 
