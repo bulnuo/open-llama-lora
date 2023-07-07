@@ -19,7 +19,7 @@ Here's what our process involves:
 
 1. Download the pre-trained OpenLlaMa model, with 3 billion parameters, from Huggingface.
 2. Finetune the model using your personalized training data.
-3. Run an inference to confirm the fine-tuned model understands your training data.
+3. Run an inference to confirm the finetuned model understands your training data.
 
 ### What to expect
 We're using a small language model (3 billion parameters), a tiny dataset for finetuning (100 records), doing it in a short amount of time (10 minutes), and running it on a tiny system (a single 8-core CPU). For comparison, training is run on 100s of GPUs for many days.
@@ -60,7 +60,7 @@ It does not yet work on Mac. Later I will package it in Docker for easier consum
 
 ## Next steps
 
-Now you can create your own training dataset to run fine-tunning and inference. Both scripts can be easily modified to pick up your data and store/pick-up finetuned models under different names.
+Now you can create your own training dataset to run finetunning and inference. Both scripts can be easily modified to pick up your data and store/pick-up finetuned models under different names.
 
 Note that the pre-trained base model does not change. You can have multiple finetuned Lora Adapters for the same base model.
 
