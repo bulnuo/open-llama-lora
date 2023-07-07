@@ -70,5 +70,5 @@ OpenLlama – Apache License -  [https://github.com/openlm-research/open_llama/b
 
 RedPajama training dataset for OpenLlama - [https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T:// "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T")
 
-You should follow appropriate use of AI within 3DS guidelines found here - [https://dsext001-eu1-215dsi0708-3dswym.3dexperience.3ds.com/#community:1648/post:ASqp_lkhS62KHyoADJs5xg](here "https://dsext001-eu1-215dsi0708-3dswym.3dexperience.3ds.com/#community:1648/post:ASqp_lkhS62KHyoADJs5xg").
+You should follow appropriate use of AI within 3DS guidelines found here - [https://dsext001-eu1-215dsi0708-3dswym.3dexperience.3ds.com/#community:1648/post:ASqp_lkhS62KHyoADJs5xg](here "https://dsext001-eu1-215dsi0708-3dswym.3dexperience.3ds.com/#community:1648/post:ASqp_lkhS62KHyoADJs5xg")
 
