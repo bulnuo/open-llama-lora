@@ -31,7 +31,7 @@ Despite these limitations, going through the steps will show you that the fine-t
 
 ### Resources
 
-This setup is tested on* t2.2xlarge* EC2 instance with Amazon Linux – 8vCPU, 32GB memory, 30GB storage.
+This setup is tested on *t2.2xlarge* EC2 instance with Amazon Linux – 8vCPU, 32GB memory, 30GB storage.
 It does not yet work on Mac. I will package it in Docker for easier consumption.
 
 ### Steps
