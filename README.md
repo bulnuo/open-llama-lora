@@ -36,10 +36,13 @@ It does not yet work on Mac. I will package it in Docker for easier consumption.
 
 ### Steps
 1.	Install git and clone the repository
+   
 `sudo yum install git`
+
 `git clone bulnuo/open-llama-lora`
-2.	Follow installation steps outlined in README.txt file
-3.	Download the pre-trained base model
+
+3.	Follow installation steps outlined in README.txt file
+4.	Download the pre-trained base model
    
 `cd scripts`
 
@@ -50,6 +53,7 @@ It does not yet work on Mac. I will package it in Docker for easier consumption.
 1.	Run the finetuning 
 
 `python finetune-basic.py`
+
 2.	Run the inference
 
 `python infer-basic.py`
