@@ -6,6 +6,7 @@ sudo yum install git
 wget –P . https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
 sudo chmod +x Anaconda3-2023.03-1-Linux-x86_64.sh 
 ./Anaconda3-2023.03-1-Linux-x86_64.sh
+# chose "yes" at the end of the script to initialize Anaconda installation
 # exit and re-enter the shell after installing Anaconda
 # (base) context should appear in Linux prompt
 
