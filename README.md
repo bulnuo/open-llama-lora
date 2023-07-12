@@ -39,7 +39,7 @@ It does not yet work on Mac. Later I will package it in Docker for easier consum
    
 `sudo yum install git`
 
-`git clone bulnuo/open-llama-lora`
+`git clone https://github.com/bulnuo/open-llama-lora`
 
 3.	Follow installation steps outlined in README.txt file
 4.	Download the pre-trained base model
