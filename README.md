@@ -69,5 +69,3 @@ Note that the pre-trained base model does not change. You can have multiple fine
 OpenLlama – Apache License -  [https://github.com/openlm-research/open_llama/blob/main/LICENSE](https://github.com/openlm-research/open_llama/blob/main/LICENSE "https://github.com/openlm-research/open_llama/blob/main/LICENSE")
 
 RedPajama training dataset for OpenLlama - [https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T:// "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T")
-
-You should follow appropriate use of AI within 3DS guidelines.
